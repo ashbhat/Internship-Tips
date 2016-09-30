@@ -21,13 +21,12 @@ Don't send your resume / ask for an internship in the first email, send initial 
 
 "Hey X!
 
-Love what you're doing with <company name>. I find <what they do> fascinating and you guys seem to have an interesting approach. 
+Love what you're doing with (company name). I find (what they do) fascinating and you guys seem to have an interesting approach. 
 
-<relevant line> <example> I worked on <project> doing <project description + link>, and would love to grab coffee sometime! </example> </relevant line> 
-
-or
-
-I'm currently at <school>Berkeley</school> studying CS, and would love to grab coffee sometime!
+if(relevant_project):
+I worked on (relevant_project) doing (relevant_project.description + link), and would love to grab coffee sometime! 
+else:
+I'm currently at (Berkeley) studying CS, and would love to grab coffee sometime!
 
 Best,
 Y"
